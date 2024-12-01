@@ -1,0 +1,5 @@
+{
+  "$schema": "https://dev.wix.com/wix-cli/schemas/wix-config.json",
+  "appId": "f8762f3e-713d-4974-85ef-f54c0af950e4",
+  "projectId": "kfir-recreating-data-stuff"
+}
