@@ -543,6 +543,57 @@
     "@wix/sdk-runtime" "^0.3.22"
     "@wix/sdk-types" "^1.12.4"
 
+"@wix/data@^1.0.176":
+  version "1.0.176"
+  resolved "https://npm.dev.wixpress.com/api/npm/npm-repos/@wix/data/-/data-1.0.176.tgz#85fb9c363e72c06ddaf0b6dfc7b2fbf3bbc0e46c"
+  integrity sha512-mplW3NzVTUvlPhntJaurodElbg18cZZFP7JT4q/7kC2QIbM6rkQfGSXBaFPwREgbPUP28sQO0O/QcF1oezqL4A==
+  dependencies:
+    "@wix/data_collections" "1.0.62"
+    "@wix/data_external-database" "1.0.27"
+    "@wix/data_external-database-connections" "1.0.49"
+    "@wix/data_indexes" "1.0.44"
+    "@wix/data_items" "1.0.60"
+
+"@wix/data_collections@1.0.62":
+  version "1.0.62"
+  resolved "https://npm.dev.wixpress.com/api/npm/npm-repos/@wix/data_collections/-/data_collections-1.0.62.tgz#f007a5404ab46adc5164572c440176a0f3e4dd3c"
+  integrity sha512-fFM55O0e/QWzWT2nA3i/BxwifWIRJaXY1pMgjVrYZdm7oIbSde4OXL2O8VbJCUJ7HGAAnf21fOjjeg/m5wJc0w==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/data_external-database-connections@1.0.49":
+  version "1.0.49"
+  resolved "https://npm.dev.wixpress.com/api/npm/npm-repos/@wix/data_external-database-connections/-/data_external-database-connections-1.0.49.tgz#fdf00b27c21d70c4520f7a321d0daa6bf5e82de5"
+  integrity sha512-1KJHDDwspb8qbnSwUxTEsARnk5Ow++LpbfHB8rLnYzyPBI3NGvhxdIvu50sA7TCW9QMH4UP8QEAAHKFk8ihgXA==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/data_external-database@1.0.27":
+  version "1.0.27"
+  resolved "https://npm.dev.wixpress.com/api/npm/npm-repos/@wix/data_external-database/-/data_external-database-1.0.27.tgz#792c94c8969223b50441773947ec447bd50148c7"
+  integrity sha512-yDCotciHKKrD8bl83+kOMxQg8UsalHpi5ds/lbjS9jCIOBTGiZoiw0vt6rDxVwp0j3euwDF818reez8XQDZ+ig==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/data_indexes@1.0.44":
+  version "1.0.44"
+  resolved "https://npm.dev.wixpress.com/api/npm/npm-repos/@wix/data_indexes/-/data_indexes-1.0.44.tgz#0e8213dbd167d8c45f9613e9e48f9f527bb08a78"
+  integrity sha512-eGaoc0YQzhn4yPCMZf6ddi5CtrC7IQxmqYEDUHMAY7sazxq5HffLEBnyE5UOCGevOHgnS3v0jb/TeZ1LZx5PQw==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/data_items@1.0.60":
+  version "1.0.60"
+  resolved "https://npm.dev.wixpress.com/api/npm/npm-repos/@wix/data_items/-/data_items-1.0.60.tgz#0ce7a6c4ba326706db9775a0f3d6de0a778ee762"
+  integrity sha512-YDBXCOQKnpwm9P6uUkp14/CIEBYfB+VAbD8LFZXiGUh4Tj50IRtGu8eVC9dhuPzjI8GcQi4x3QuoJk7V4LT0ng==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
 "@wix/design-system-tokens@^1.57.1":
   version "1.57.1"
   resolved "https://registry.yarnpkg.com/@wix/design-system-tokens/-/design-system-tokens-1.57.1.tgz#a488a9c2009805ad1d825a3446169589ad63d960"
@@ -602,6 +653,391 @@
     tslib "^2.8.1"
     wix-design-systems-locale-utils "1.160.0"
 
+"@wix/ecom@^1.0.668":
+  version "1.0.845"
+  resolved "https://registry.yarnpkg.com/@wix/ecom/-/ecom-1.0.845.tgz#5f3a5c93a06f02459e228ddc9b8ab558d05ce809"
+  integrity sha512-kE4geopMzwpKwxx9Ty8YfW0rvGYqffnGWndBAYTxOq3IZhVz35/sSGyxB5DekdMtMekgFa6f8o7bmDcRt7hofg==
+  dependencies:
+    "@wix/ecom_abandoned-checkouts" "1.0.55"
+    "@wix/ecom_additional-fees" "1.0.35"
+    "@wix/ecom_back-in-stock-notifications" "1.0.61"
+    "@wix/ecom_back-in-stock-settings" "1.0.44"
+    "@wix/ecom_cart" "1.0.106"
+    "@wix/ecom_checkout" "1.0.112"
+    "@wix/ecom_checkout-content" "1.0.15"
+    "@wix/ecom_checkout-settings" "1.0.60"
+    "@wix/ecom_checkout-templates" "1.0.110"
+    "@wix/ecom_currencies" "1.0.45"
+    "@wix/ecom_current-cart" "1.0.106"
+    "@wix/ecom_custom-triggers" "1.0.31"
+    "@wix/ecom_delivery-profile" "1.0.29"
+    "@wix/ecom_delivery-solutions" "1.0.12"
+    "@wix/ecom_discount-rules" "1.0.62"
+    "@wix/ecom_discounts" "1.0.14"
+    "@wix/ecom_discounts-custom-trigger" "1.0.17"
+    "@wix/ecom_draft-orders" "1.0.44"
+    "@wix/ecom_gift-vouchers" "1.0.12"
+    "@wix/ecom_gift-vouchers-provider" "1.0.12"
+    "@wix/ecom_local-delivery-options" "1.0.21"
+    "@wix/ecom_memberships" "1.0.8"
+    "@wix/ecom_order-fulfillments" "1.0.55"
+    "@wix/ecom_order-invoices" "1.0.48"
+    "@wix/ecom_order-payment-requests" "1.0.20"
+    "@wix/ecom_order-transactions" "1.0.78"
+    "@wix/ecom_orders" "1.0.150"
+    "@wix/ecom_orders-settings" "1.0.54"
+    "@wix/ecom_payment-settings" "1.0.78"
+    "@wix/ecom_pickup-locations" "1.0.18"
+    "@wix/ecom_recommendations" "1.0.52"
+    "@wix/ecom_recommendations-provider" "1.0.11"
+    "@wix/ecom_shipping-options" "1.0.16"
+    "@wix/ecom_shipping-rates" "1.0.53"
+    "@wix/ecom_shippo-configurations" "1.0.23"
+    "@wix/ecom_subscription-contracts" "1.0.11"
+    "@wix/ecom_tip-settings" "1.0.2"
+    "@wix/ecom_tippable-staff" "1.0.2"
+    "@wix/ecom_tips" "1.0.4"
+    "@wix/ecom_totals-calculator" "1.0.22"
+    "@wix/ecom_validations" "1.0.44"
+
+"@wix/ecom_abandoned-checkouts@1.0.55":
+  version "1.0.55"
+  resolved "https://registry.yarnpkg.com/@wix/ecom_abandoned-checkouts/-/ecom_abandoned-checkouts-1.0.55.tgz#d8fc38a254668095d1b414e6378bb9eb87aca6ac"
+  integrity sha512-KxWAAKhvJOM28xh6Ez7cXydHWaeJ45j2zpsSLLrTpfUwQgGn2x6hHl4rU56uMSpEjUBTBq0raFDypdVaY90jkA==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/ecom_additional-fees@1.0.35":
+  version "1.0.35"
+  resolved "https://registry.yarnpkg.com/@wix/ecom_additional-fees/-/ecom_additional-fees-1.0.35.tgz#2c074fe0dc43f6b1d86dca2eef1194777f16a69f"
+  integrity sha512-8cbfSODTav6PnsMEJ35ThWhbZxhY7TryGqUL9LNSK/QzRQ37v6BcDLEWD5KyQL+4DEt0EqD+5PLymkaLxWbhrw==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/ecom_back-in-stock-notifications@1.0.61":
+  version "1.0.61"
+  resolved "https://registry.yarnpkg.com/@wix/ecom_back-in-stock-notifications/-/ecom_back-in-stock-notifications-1.0.61.tgz#2964ccad1dcbdf8cc97be690240feb5c5afa6650"
+  integrity sha512-BcGQKB1IS+v4r7QGRlhdGbRXNsp0R1z3EI3RndN/Wy8uk3dWMNWhzLeFZHvfFKSGAb2nr0XhwW8MffvbGCn6VQ==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/ecom_back-in-stock-settings@1.0.44":
+  version "1.0.44"
+  resolved "https://registry.yarnpkg.com/@wix/ecom_back-in-stock-settings/-/ecom_back-in-stock-settings-1.0.44.tgz#503093f02c039db0001d44df5bfe399af7ddde00"
+  integrity sha512-l9UsZSlS+AO4ZP7LOTGvx+uBTLbAmSXvngd9ufqvotQj5BXyKIBFfLqqif9/y+jTnEqnJiyNwX+gCG/VTUrEGw==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/ecom_cart@1.0.106":
+  version "1.0.106"
+  resolved "https://registry.yarnpkg.com/@wix/ecom_cart/-/ecom_cart-1.0.106.tgz#63fb69e458ae5b4294ffc00a807dbec96571666a"
+  integrity sha512-C7HG9nYfWIk4Q9dCHpIhiu+1r87xkkVjmjRxSjqyMP2ybrleBSncl6tLcXZ6QtnnJag3L/Wksg5sbQujiHGUMQ==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/ecom_checkout-content@1.0.15":
+  version "1.0.15"
+  resolved "https://registry.yarnpkg.com/@wix/ecom_checkout-content/-/ecom_checkout-content-1.0.15.tgz#202221566d902d7b6f36b82b519bad0de5d72815"
+  integrity sha512-TxnO5/bjcsh9Fku9BJxbT+rYMI3BULWP5uX8+uuBlk/oziLi2GYwsIVfbpsBisqR7y/c/rsLqs5UgSF1W6Mz6w==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/ecom_checkout-settings@1.0.60":
+  version "1.0.60"
+  resolved "https://registry.yarnpkg.com/@wix/ecom_checkout-settings/-/ecom_checkout-settings-1.0.60.tgz#5821b628030a96e710e29e72cd173f10c8d70af5"
+  integrity sha512-64YFNJ1okGoL2wOMhtJfYEiHD6u6mch2MSo9yuZKALWm4nrjT3kCFa2Ku+mRVLakWlT8796cT31c9XdTSIsFUQ==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/ecom_checkout-templates@1.0.110":
+  version "1.0.110"
+  resolved "https://registry.yarnpkg.com/@wix/ecom_checkout-templates/-/ecom_checkout-templates-1.0.110.tgz#76abb5eb4453368514ccfdd41f1c44dfce9d2b77"
+  integrity sha512-KcaWvQA1J/mW/NsMSMyf7dBnJkctXBQuV/8W4/8RLZT/QWV9ifSJyxk438IEbXc0BUnuD+gKqLMWwcWXkASFJA==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/ecom_checkout@1.0.112":
+  version "1.0.112"
+  resolved "https://registry.yarnpkg.com/@wix/ecom_checkout/-/ecom_checkout-1.0.112.tgz#9bfcea9270f9bef9e588ccf71534e38a7efad4cb"
+  integrity sha512-Quy82h+59icV8vPzTvN33sgqxBLB3o/FqewwyA0v0+/KJ7rs9h40YICHQNGHNeWiRtkJaTC0uWV2gk8MNbMnRQ==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/ecom_currencies@1.0.45":
+  version "1.0.45"
+  resolved "https://registry.yarnpkg.com/@wix/ecom_currencies/-/ecom_currencies-1.0.45.tgz#ca11e4fc66c42ea49e04fc73e79bb933852b1fe0"
+  integrity sha512-0aW8F+2BdCActGiMCyj+yYdY36Fz59MIg1Em86DS9i/UjZNDu/+7zNDSt3f1Au4+EPzqtFfRalPvFyU4SAi3Iw==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/ecom_current-cart@1.0.106":
+  version "1.0.106"
+  resolved "https://registry.yarnpkg.com/@wix/ecom_current-cart/-/ecom_current-cart-1.0.106.tgz#abb17d0dec9abb9a3c54ca005645ac6e812bfc0c"
+  integrity sha512-GGOKQp/WjcuOAW1QDZQzlNDEXu5HgtFtFIXnh5fg7vys0+jHe6wyy1jA5w/pm8S0425vBvsEC+vhyavIDQ44fw==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/ecom_custom-triggers@1.0.31":
+  version "1.0.31"
+  resolved "https://registry.yarnpkg.com/@wix/ecom_custom-triggers/-/ecom_custom-triggers-1.0.31.tgz#55ab410c7b8f4aa20d0631d22d179e6a3f7b8a71"
+  integrity sha512-AAEdK9t6QAkKuhjLHiFUXAb+sUC+YJjbnWorfcsxyQBC7ODmtoCjb7/TDHqX9sA/3afZ0Ro93KnrRerS/2MLJw==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/ecom_delivery-profile@1.0.29":
+  version "1.0.29"
+  resolved "https://registry.yarnpkg.com/@wix/ecom_delivery-profile/-/ecom_delivery-profile-1.0.29.tgz#def04f2301d0a2caa4d5fe90429d636ba37a4d7f"
+  integrity sha512-tcd+lravNCxsQlLLyUN/EbjBYfvTLPJKyZxLUigMJhcpCRDExOnAN8iE6uBpyrjCIqEBFDHnhvmpxeBXESDzvA==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/ecom_delivery-solutions@1.0.12":
+  version "1.0.12"
+  resolved "https://registry.yarnpkg.com/@wix/ecom_delivery-solutions/-/ecom_delivery-solutions-1.0.12.tgz#98cd15132160d57f361ed4e4387d24c70bf788e5"
+  integrity sha512-2ag6Hh2/nNfJTkCHG6SCED3T7kbGQDe26jubIU2MdwDxIjcoxWGzSk8Om5AM1UFSB+ZakDTCNtCDnGDfJNPRBA==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/ecom_discount-rules@1.0.62":
+  version "1.0.62"
+  resolved "https://registry.yarnpkg.com/@wix/ecom_discount-rules/-/ecom_discount-rules-1.0.62.tgz#c8fb1323db0a068e03e7da994c70541756d7a510"
+  integrity sha512-nhcN183/GQQDaUISfOZqyXoBQdhsnAsCBtvbl4eQzKlW63nKvW3DNlWZzdu9mtzHMdazqYzmDg9ahZ+AKr/+aA==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/ecom_discounts-custom-trigger@1.0.17":
+  version "1.0.17"
+  resolved "https://registry.yarnpkg.com/@wix/ecom_discounts-custom-trigger/-/ecom_discounts-custom-trigger-1.0.17.tgz#199848cc0d75031ef48791f9791d1aab61d08c66"
+  integrity sha512-thdrjyIgetx6JhrZZG2V0nQSFgulROlxQ6buPBe8iDv7qRtkkgyJzanLWg5Hi/iWLNA1L9xRGPAj5Rd37fi1gA==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/ecom_discounts@1.0.14":
+  version "1.0.14"
+  resolved "https://registry.yarnpkg.com/@wix/ecom_discounts/-/ecom_discounts-1.0.14.tgz#bd4a76d6d2c2e83ab658b6fe4af518cfcf29a298"
+  integrity sha512-5vK8PWFJrQnRgoitzzWZZyJLcB9Vdf3JOIUaHx/+Czt4jDvLx5TSliGLAFpLfjUF0PMTQkT+ygWlTM+S14LLHg==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/ecom_draft-orders@1.0.44":
+  version "1.0.44"
+  resolved "https://registry.yarnpkg.com/@wix/ecom_draft-orders/-/ecom_draft-orders-1.0.44.tgz#f249c747c43b149e1cca307c2a45a920add13581"
+  integrity sha512-mRDKCgRKEslJAKce/WvkdII1HTVqBkiZatoDiDUNRMNYvEW/OSbU9qwBISxEQ9LSctb+wIIKD9T+AusvK2IUIw==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/ecom_gift-vouchers-provider@1.0.12":
+  version "1.0.12"
+  resolved "https://registry.yarnpkg.com/@wix/ecom_gift-vouchers-provider/-/ecom_gift-vouchers-provider-1.0.12.tgz#ccf7529bc5829a4d25e8944cc97ab4b19de61efa"
+  integrity sha512-pVjGxUU/GUYhY6gk9+57/bNu7kzdxL6APBKrB5nf9SuwK9QPodAuGRv1+/SGllHZJ4bvpVLaONFJqE9WTy6rpQ==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/ecom_gift-vouchers@1.0.12":
+  version "1.0.12"
+  resolved "https://registry.yarnpkg.com/@wix/ecom_gift-vouchers/-/ecom_gift-vouchers-1.0.12.tgz#80ad58c69ca2fb9392f728f7b9b055ac8ab91a66"
+  integrity sha512-Empz99neYp4QToA53STYIJ3WZW/lp0TKeSRiR342Drh62FBVeRS8X+zHxM+t/9HqrY2/5i29wzEVysl50ngdaA==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/ecom_local-delivery-options@1.0.21":
+  version "1.0.21"
+  resolved "https://registry.yarnpkg.com/@wix/ecom_local-delivery-options/-/ecom_local-delivery-options-1.0.21.tgz#91cbe5e64522f0f5e6894eb0287f7aa847c7935a"
+  integrity sha512-AOeYL/S4xpiuE9WQWKCP5Fef2pRAsZEKk9qgId2bTpP9LNVr+t3HG7Wkwh30fj2icuQ9AWnXxRFS3YsXWVv7EQ==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/ecom_memberships@1.0.8":
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/@wix/ecom_memberships/-/ecom_memberships-1.0.8.tgz#c8956c6bd33bdb47c6ed2ce2de03abf180ee378c"
+  integrity sha512-cj1GoZrR/oWgaMmfkqnsXBy/6zsXaFZiBVfQb+VZV6Y8rqEaZZPCYS3NOBvwxODRuxOjB8TxMuE01PJvfwO8kg==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/ecom_order-fulfillments@1.0.55":
+  version "1.0.55"
+  resolved "https://registry.yarnpkg.com/@wix/ecom_order-fulfillments/-/ecom_order-fulfillments-1.0.55.tgz#54c66053104313ef62508b80feca3a946d6d8999"
+  integrity sha512-3rEIXjCsfbYWTnHby4RrKRvFNDy7Scsxxz57FFreZBnXVzYVZeechzgizJxTg7103eXaAhfh4lOL0xi+1QkMlA==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/ecom_order-invoices@1.0.48":
+  version "1.0.48"
+  resolved "https://registry.yarnpkg.com/@wix/ecom_order-invoices/-/ecom_order-invoices-1.0.48.tgz#f9a5b6348d1125f5ced629c5501d82a3357471f7"
+  integrity sha512-C6Q1FxhNTLp0Sd+C8ruKyqD2FCCxl9L5SZrma4q+c37eiT4osORlT5ZEslHmFe+P+13crIkCJPgVRPlMNvPp5w==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/ecom_order-payment-requests@1.0.20":
+  version "1.0.20"
+  resolved "https://registry.yarnpkg.com/@wix/ecom_order-payment-requests/-/ecom_order-payment-requests-1.0.20.tgz#38875a4f82b08573a91948c08d696d43ba25ac76"
+  integrity sha512-aEdwnmH4/a4FWKmoSg+GK6JpDM7w6p/Fpu1nTuqYPkXrfffBJSVQPl/DUbQvi/MGcDgYPNaJcpxQmxlKYWq53g==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/ecom_order-transactions@1.0.78":
+  version "1.0.78"
+  resolved "https://registry.yarnpkg.com/@wix/ecom_order-transactions/-/ecom_order-transactions-1.0.78.tgz#1007bd0f5037cfbb16409b0bacdbb79fb27ccad0"
+  integrity sha512-CtiQwO0Y8SAHSL7iev0nklDUF0BJO7/2LEhq5Sgz6+1Umh1GC9DOcsWUgHhj1HojJEa6ZSCmI3RSqU/XxakwIQ==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/ecom_orders-settings@1.0.54":
+  version "1.0.54"
+  resolved "https://registry.yarnpkg.com/@wix/ecom_orders-settings/-/ecom_orders-settings-1.0.54.tgz#2c27bcdcc2c2e67983d3987af97278c147d45f99"
+  integrity sha512-Xl72S6qmfnvQpr+FGjamxYGLT6RexADk0cCPH60cXsGZW0UsEySVI56zUQfA4CbC7/BoGVF2bXVADrNiJqk2Mg==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/ecom_orders@1.0.150":
+  version "1.0.150"
+  resolved "https://registry.yarnpkg.com/@wix/ecom_orders/-/ecom_orders-1.0.150.tgz#318ee93ae10dd5b864027faf12174eedc12126ab"
+  integrity sha512-V+Tk2Mf/S8tjGBBf3ANJUBRlhjs+3efJ48urd5AoYVCOqWRlxkIs5sOBL/eAsITZ9jIiiZIYUbI/oksO7F3qgA==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/ecom_payment-settings@1.0.78":
+  version "1.0.78"
+  resolved "https://registry.yarnpkg.com/@wix/ecom_payment-settings/-/ecom_payment-settings-1.0.78.tgz#d68fce5cb6d62d3695dd5a8a7ec485af29223839"
+  integrity sha512-zLhw+TGpnNUyPhi/kwG6ZwOfv436PdtlxiwrybZKjuzGRZ36DCzMmImK7d87OpBjh8jEgxbNz+uN4suZnTcHDw==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/ecom_pickup-locations@1.0.18":
+  version "1.0.18"
+  resolved "https://registry.yarnpkg.com/@wix/ecom_pickup-locations/-/ecom_pickup-locations-1.0.18.tgz#fc88449b029e2a16213be65acde66d7a96576237"
+  integrity sha512-VTMfl2WXbcxYlaeJfAOAbre15OP5jwE/nZAtD0NHsnm1Y+vpGYTb2IRYeRPMv2QwaNubSaGxRW0gFa0aZJfkrA==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/ecom_recommendations-provider@1.0.11":
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/@wix/ecom_recommendations-provider/-/ecom_recommendations-provider-1.0.11.tgz#7f94d950748b620a4410f77252b56f34e74dfeec"
+  integrity sha512-RbCGUzW2GGa99rJoT/lC3MGpluSd0oFxpRj58fy2I0a6pRQrWYTwy4BP4saWgGMHwoKSqcSkIwCsxsOQWgga3A==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/ecom_recommendations@1.0.52":
+  version "1.0.52"
+  resolved "https://registry.yarnpkg.com/@wix/ecom_recommendations/-/ecom_recommendations-1.0.52.tgz#137798e88e19523b73d3639657c9cc23af33d8f6"
+  integrity sha512-VegOHYtvULf3dJJwdw72mDzP6LtQs5nV98NTSZ7r0Qe1amUv+dzx1Zo9Pm7c/ogapsUABjHi+mRwK3fExZhDBQ==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/ecom_shipping-options@1.0.16":
+  version "1.0.16"
+  resolved "https://registry.yarnpkg.com/@wix/ecom_shipping-options/-/ecom_shipping-options-1.0.16.tgz#75f7b8d64f6ce8eee1be31ef81e9426e27687ef0"
+  integrity sha512-29QAgojJWRAZSig2Qn56UA5P1kgNRozAfpQ98OAjTtfYPHcpOvZrFAVyPkb5TraTbctM1liqczF0RbBVdKQwcw==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/ecom_shipping-rates@1.0.53":
+  version "1.0.53"
+  resolved "https://registry.yarnpkg.com/@wix/ecom_shipping-rates/-/ecom_shipping-rates-1.0.53.tgz#668811d99f1a7f4665e30387f49099d23d8841e9"
+  integrity sha512-S1Wkb4qsbMwvrnpxpPU2s2Ki9dHv5PyiOciepNZbRR5XP25UYEDqf31tQmxsQHeg2Mv/XbBlzlZTczj82JEP5g==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/ecom_shippo-configurations@1.0.23":
+  version "1.0.23"
+  resolved "https://registry.yarnpkg.com/@wix/ecom_shippo-configurations/-/ecom_shippo-configurations-1.0.23.tgz#27bdaf3e1b6392e1bfb29b8b6c9e86aea7acac47"
+  integrity sha512-FWXcOy5s/tXByMIe3QZnFKt5DnREGEnvkB0AT+KXa6JSSz1fwO4XQxFU3f5SHxdFzKl9b2E4lTo3KIAwZkFkZQ==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/ecom_subscription-contracts@1.0.11":
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/@wix/ecom_subscription-contracts/-/ecom_subscription-contracts-1.0.11.tgz#084d62707f622d1df8d223ef35469222548c5913"
+  integrity sha512-pWX0WwtBpeisp6P7hvigrEvzE9rwUe9jJK2w2V1qG/c+S5lRyvVtAJ/lKVznlSHXAUFlSdAvicdopFF/an+VDQ==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/ecom_tip-settings@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@wix/ecom_tip-settings/-/ecom_tip-settings-1.0.2.tgz#a2494b83a806e45d1eba3f70e65c0c6bcfa32958"
+  integrity sha512-c+VgxXFmpPEQvQhJGe+dTaf/xwJjgbcJItOogyKGY5s70NVxMnxohPwBjOgNHt79HtChvW2TPxj5YL3raZWdTQ==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/ecom_tippable-staff@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@wix/ecom_tippable-staff/-/ecom_tippable-staff-1.0.2.tgz#d901bffa2d00d3ae7b56936ea0d42d760036adb4"
+  integrity sha512-n+XB/kaB5hrdp7piOXbfOv6tO+NRc6X6w3g7nu8mAi//ihBDnr48Vh3jRbbrbDfriMN4TzYn4F0U6WcEtgbCuw==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/ecom_tips@1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@wix/ecom_tips/-/ecom_tips-1.0.4.tgz#d0287831430d0ac44fa70eca35ee116152b49a16"
+  integrity sha512-F60Af2BzRTyPNMQCNQpQ0iCZcCJbVh513PE52oYN/whgmeO2yxqdS3dEvWbSC8FPrYFTNIzRVX7MyrTo+hX5kg==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/ecom_totals-calculator@1.0.22":
+  version "1.0.22"
+  resolved "https://registry.yarnpkg.com/@wix/ecom_totals-calculator/-/ecom_totals-calculator-1.0.22.tgz#bda5f44bfddc5fbae4b159d54f500d271a86e3b4"
+  integrity sha512-CjJo51dQ4Lex6U4C7AiVfnNHi9oVw9M1w+b2VsVyASxbsL/lxSixA/MNHUqCh5F0DSQ8CfWXoEOvhH7mVHKaNw==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/ecom_validations@1.0.44":
+  version "1.0.44"
+  resolved "https://registry.yarnpkg.com/@wix/ecom_validations/-/ecom_validations-1.0.44.tgz#38b8da0381dc8cdd658cbbe1221408e51aecb8ed"
+  integrity sha512-dSmzIBenktXuR5ZKtQP7XC1l0UuyZ2+64+ajnUNNgKLFrsLOqKxKvJC+xZY0/OBf72OoBMwEGc0nudIUkzeHGg==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/essentials@^0.1.9":
+  version "0.1.9"
+  resolved "https://npm.dev.wixpress.com/api/npm/npm-repos/@wix/essentials/-/essentials-0.1.9.tgz#21d2af8dbb96f3f209eabd557572fc8d545b0a4a"
+  integrity sha512-zS2VaoGz6wh1VjxhQxFAVg/LRnlH09Po4u8vk3x9j9J585/Gk0x0Lu5Wcxf0suFlpQjBkAI3K2vDu6JFsp6M+Q==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.23"
+    "@wix/sdk-types" "^1.12.4"
+  optionalDependencies:
+    graphql "^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0"
+
 "@wix/feedback-loop-structure@^1.32.0":
   version "1.32.0"
   resolved "https://registry.yarnpkg.com/@wix/feedback-loop-structure/-/feedback-loop-structure-1.32.0.tgz#268c4b0b8ef51a4c9ea40687e1a037cafa563034"
@@ -656,7 +1092,7 @@
   resolved "https://registry.yarnpkg.com/@wix/sdk-context/-/sdk-context-0.0.1.tgz#8c1436d382b720f80e72dd0c1c4e0576b6ab3fec"
   integrity sha512-ziSzrceUC0KFn4IJIVBn1cXXKrZ49ZKG5tQ6fl+TpontyUw5p/Z4VofFUUsnqNl9JYCpYNTzIXpzwok93Vrl8A==
 
-"@wix/sdk-runtime@^0.3.22":
+"@wix/sdk-runtime@^0.3.22", "@wix/sdk-runtime@^0.3.23":
   version "0.3.24"
   resolved "https://registry.yarnpkg.com/@wix/sdk-runtime/-/sdk-runtime-0.3.24.tgz#ae2bf0197ca6b22df846174515d41e9b66ca69ec"
   integrity sha512-5vi5nZCEfbq4G4tZ3Bjkyn2aMx3jm5seR8nS742SZJXXhHc6BZ4oF6cOgTflsJHfvfywBY2mEa/HxbxDTnVjHQ==
@@ -1397,6 +1833,11 @@ gradient-parser@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/gradient-parser/-/gradient-parser-1.0.2.tgz#d283b80390386e2613c992bb0e5abb259aedf25f"
   integrity sha512-gR6nY33xC9yJoH4wGLQtZQMXDi6RI3H37ERu7kQCVUzlXjNedpZM7xcA489Opwbq0BSGohtWGsWsntupmxelMg==
+
+"graphql@^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0":
+  version "16.9.0"
+  resolved "https://npm.dev.wixpress.com/api/npm/npm-repos/graphql/-/graphql-16.9.0.tgz#1c310e63f16a49ce1fbb230bd0a000e99f6f115f"
+  integrity sha512-GGTKBX4SD7Wdb8mqeDLni2oaRGYQWjWHGKPQ24ZMnUtKfcsVoiv4uX8+LJr1K6U5VW2Lu1BwJnj7uiori0YtRw==
 
 gud@^1.0.0:
   version "1.0.0"

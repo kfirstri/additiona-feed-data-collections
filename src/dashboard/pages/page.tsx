@@ -1,5 +1,5 @@
-import React, { type FC } from 'react';
-import { dashboard } from '@wix/dashboard';
+import React, { type FC } from "react";
+import { dashboard } from "@wix/dashboard";
 import {
   Button,
   EmptyState,
@@ -7,12 +7,23 @@ import {
   Page,
   TextButton,
   WixDesignSystemProvider,
-} from '@wix/design-system';
-import '@wix/design-system/styles.global.css';
-import * as Icons from '@wix/wix-ui-icons-common';
-import wixLogo from './wix_logo.svg';
+} from "@wix/design-system";
+import "@wix/design-system/styles.global.css";
+import * as Icons from "@wix/wix-ui-icons-common";
+import { httpClient } from "@wix/essentials";
+import wixLogo from "./wix_logo.svg";
 
 const Index: FC = () => {
+  const callMyBackend = async () => {
+    const res = await httpClient.fetchWithAuth(
+      `${import.meta.env.BASE_API_URL}/test-data-collection`
+    );
+    console.log(await res.text());
+    dashboard.showToast({
+      message: "Called backend",
+    });
+  };
+
   return (
     <WixDesignSystemProvider features={{ newColorsBranding: true }}>
       <Page>
@@ -21,10 +32,8 @@ const Index: FC = () => {
           subtitle="Add management capabilities to your app."
           actionsBar={
             <Button
-              onClick={() => {
-                dashboard.showToast({
-                  message: 'Your first toast message!',
-                });
+              onClick={async () => {
+                await callMyBackend();
               }}
               prefixIcon={<Icons.GetStarted />}
             >
